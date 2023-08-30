@@ -10,7 +10,7 @@ class Gobistories {
     public function stories() {
         $EE = get_instance();
         $stories = $EE->TMPL->fetch_param('stories', '');
-        $bubble_size = $EE->TMPL->fetch_param('bubble_size', '100px');
+        $bubble_size = $EE->TMPL->fetch_param('bubble-size', '100px');
         $color = $EE->TMPL->fetch_param('color', '#15D6EA');
         $show_play_icon = $EE->TMPL->fetch_param('show-play-icon', 'true');
         $html = '<script src="https://widget.gobistories.com/gwi/6" async onload="gobi.discover()"></script>';
