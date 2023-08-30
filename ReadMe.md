@@ -3,15 +3,18 @@
 ### Installation
 
 - Unzip file
-- copy & paste the `gobistories` folder to `"your-project\system\user\addons\"`
+- copy & paste the `gobistories` folder to `your-project/system/user/addons/`
 - Go to admin page
+
   - in Add-ons page --> install Gobistories addon
   - in Template page --> choose your template --> edit
     <br>
+
 - Adding stories to your template
 
 ```js
 {exp:gobistories:stories stories="22jfd"}
+
 {/exp:gobistories:stories}
 ```
 
@@ -21,6 +24,7 @@
 
 ```js
 {exp:gobistories:collection collection-id="demo"}
+
 {/exp:gobistories:collection}
 ```
 
@@ -31,10 +35,13 @@
 ```js
 <div>
   {exp:gobistories:stories stories="22jfd"}
+
   {/exp:gobistories:stories}
 </div>
+
 <div>
   {exp:gobistories:stories stories="22jfd"}
+
   {/exp:gobistories:stories}
 </div>
 ```
@@ -62,12 +69,4 @@
  show-play-icon="true"}
 
 {/exp:gobistories:stories}
-```
-
-### Usage collection
-
-```js
-{exp:gobistories:collection stories="your-collection-id"}
-
-{/exp:gobistories:collection}
 ```
