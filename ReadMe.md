@@ -1,72 +1,44 @@
-## Gobi stories widget
+### Create story
 
-### Installation
+- Sign into [https://studio.gobistories.com/](https://studio.gobistories.com/).
 
-- Unzip file
-- copy & paste the `gobistories` folder to `your-project/system/user/addons/`
-- Go to admin page
+- Create a new story.
 
-  - in Add-ons page --> install Gobistories addon
-  - in Template page --> choose your template --> edit
-    <br>
+- Upload short videos and images to your story.
 
-- Adding stories to your template
+- Publish the story.
 
-```js
-{exp:gobistories:stories stories="22jfd"}
+  <br />
 
-{/exp:gobistories:stories}
-```
+### Customize code snippet
 
-<br>
+- Open the Code editor by clicking the “Add to Website” button.
 
-- Adding collection to your template
+- Customize the look of the Bubble to fit your design.
 
-```js
-{exp:gobistories:collection collection-id="demo"}
+- Copy the generated code snippet.
 
-{/exp:gobistories:collection}
-```
+<br />
 
-<br>
+### Add stories with a new entry
 
-- Adding one or more gobi stories in just one template
+- Login to https://your-website-name/admin.php
+- Open `Entries` setting
+- Create a `NEW `entry
+- Paste the Gobi Stories code snippet into the Page Content where you want to display it.
+- Change the page format from `XHTML` to `None`.
+- `Save` the Entry.
 
-```js
-<div>
-  {exp:gobistories:stories stories="22jfd"}
+<br />
 
-  {/exp:gobistories:stories}
-</div>
+### Add stories to an existing entry
 
-<div>
-  {exp:gobistories:stories stories="22jfd"}
-
-  {/exp:gobistories:stories}
-</div>
-```
-
-<br>
-
-### Options
-
-| Option         | Default | Description                                                                                             |
-| -------------- | ------- | ------------------------------------------------------------------------------------------------------- |
-| stories        | null    | Required. String. The key of the story.                                                                 |
-| color          | #15D6EA | Any valid css color value (#000, rgb(...), rgba(...)). The color of the border around the story bubble. |
-| bubble-size    | 100px   | Valid css size value, except % (10px, 10vw...). The size of the avatar aka bubble.                      |
-| show-play-icon | true    | Boolean. Add Play icon inside the bubbles                                                               |
-
-##
-
-### Usage stories with options
-
-```js
-{exp:gobistories:stories
- stories="your-story-id"
- color="#15D6EA"
- bubble-size="100px"
- show-play-icon="true"}
-
-{/exp:gobistories:stories}
-```
+- Login to https://your-website-name/admin.php
+- Open the entry page you want to edit directly.
+  > For example, if you want to edit sub-page 2 in about, go to:
+  >
+  > http://your-website-name/index.php/about/sub-page-two
+- Click on `pencil icon` ( &#x1F589; ) where you want to display the Gobi story.
+- Paste the Gobi Stories code snippet into the Page Content.
+- Change the page format from `XHTML` to `None`.
+- `Save` the Entry
