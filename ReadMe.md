@@ -1,4 +1,4 @@
-### Create story
+### [ 1 ]  Create story
 
 - Sign into [https://studio.gobistories.com/](https://studio.gobistories.com/).
 
@@ -10,7 +10,7 @@
 
   <br />
 
-### Customize code snippet
+### [ 2 ]  Customize code snippet
 
 - Open the Code editor by clicking the “Add to Website” button.
 
@@ -20,7 +20,7 @@
 
 <br />
 
-### Add stories with a new entry
+### [ 3 ]  Add stories with a new entry
 
 - Login to https://your-website-name/admin.php
 - Open `Entries` setting
@@ -36,14 +36,16 @@
 
 <br />
 
-### Add stories to an existing entry
+### [ 4 ]  Add stories to an existing entry
 
 - Login to https://your-website-name/admin.php
 - Open the entry page you want to edit directly.
-  > For example, if you want to edit sub-page 2 in about, go to:
-  >
-  > http://your-website-name/index.php/about/sub-page-two
-- Click on `pencil icon` ( &#x1F589; ) where you want to display the Gobi story.
+  ```
+   For example, if you want to edit sub-page 2 in about, go to:
+  
+   http://your-website-name/index.php/about/sub-page-two
+  ```
+- Click on `pencil icon` ( :pencil2: ) where you want to display the Gobi story.
 - Paste the Gobi Stories code snippet into the Page Content.
 - Change the page format from `XHTML` to `None`.
 - `Save` the Entry.
